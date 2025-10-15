@@ -1,0 +1,40 @@
+.heading{
+    display: flex; 
+align-items: center;
+
+}
+p{
+     justify-content: flex-start;
+   font-size: 15px;
+   color: #53e216;
+    
+      
+}
+.navbar-brand{
+  justify-content: flex-start;
+     margin-left: 20px;
+     text-align: left;
+
+}
+.para {
+  margin-top: 20px; /* example spacing */
+  /* add any other container styles here */
+}
+
+.green-btn {
+  color: green !important;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  text-decoration: none !important; /* no underline */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.green-btn:hover,
+.green-btn:focus {
+  color: darkgreen !important;
+  text-decoration: none !important; /* no underline on hover */
+  outline: none !important;
+  box-shadow: none !important;
+}
